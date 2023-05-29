@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container border border-dark border-1 mt-4">
+    <div class="row">
+        <div class="bg-success text-white text-center p-2 shadow-lg">
+            <h1 class="fs-4">SeriLog and EF Core log to separate log files...</h1>
+            Click on Users page to perform logging
+        </div>
+    </div>
+
+</div>
+
+<form method="post" class="mt-2">
+
+    <input type="submit" 
+           class="btn btn-danger" 
+           value="Invoke exception" 
+           asp-page-handler="InvokeException" 
+           asp-route-id="100"  />
+
+</form>
