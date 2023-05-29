@@ -283,3 +283,6 @@ The code presented provides easy methods to split regular logging from EF Core l
 
 Clone the following [GitHub repository](https://github.com/karenpayneoregon/serilog-ef-core-basics).
 
+## Article location
+
+https://dev.to/karenpayneoregon/serilog-logging-and-ef-core-logging-25hm
